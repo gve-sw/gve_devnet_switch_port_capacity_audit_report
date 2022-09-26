@@ -1,0 +1,4 @@
+scrapli
+scrapli[genie]
+rich
+pyyaml

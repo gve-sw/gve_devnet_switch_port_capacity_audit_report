@@ -1,0 +1,22 @@
+# Format as below:
+#Devices:
+#  <device name>:
+#    address: <ip address>
+#    username: <password>
+#    password: <password>
+#    #Optional:
+#    enable: <enable pass>
+#    port: <non-standard SSH port>
+
+# For example:
+Devices:
+  switch01:
+    address: 10.10.10.2
+    username: admin
+    password: admin
+  switch02:
+    address: 10.10.10.3
+    username: admin
+    password: admin
+    enable: admin
+    port: 3022
